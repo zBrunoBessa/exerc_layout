@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de noticias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto: wght @400;700 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i>EBAC Shoes</i></h1>
+            <form>
+                <ul>
+                    <li>
+                        Sobre a loja
+                    </li>
+                    <li>
+                        Produtos
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </header>
+    <section id="sobre-a-loja">
+        <main>
+        <div class="container container-flex">
+            <img src="./imagens/depart.jpg">
+            <div>
+                <h2>Sobre a loja</h2>
+                <hr>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore natus, vitae aperiam excepturi perferendis facere sapiente dolor magnam, ducimus dolore, dicta maiores soluta. Dicta libero illo expedita pariatur reprehenderit praesentium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore natus, vitae aperiam excepturi perferendis facere sapiente dolor magnam, ducimus dolore, dicta maiores soluta. Dicta libero illo expedita pariatur reprehenderit praesentium.
+            </p>
+            </div>
+        </div>
+    </main>
+    </section>
+            <section>
+            <div class="container container-flex">
+                <div class="hre">
+                <h2>Produtos</h2>
+                <hr>
+            </div>
+            </div>
+                <div class="noticias">
+                    <article class="noticia">
+                            <img src="./imagens/sapatenis.jpg">
+                            <h3>Tenis Sapatenis volgue</h3>
+                            <p>Tenis marrom, tamanhos disponiveis: 36,37,38,39,40</p>
+                            <button>Adicionar ao carrinho</button>
+                    </article>
+                    <article class="noticia">
+                            <img src="./imagens/sapatenis.jpg">
+                            <h3>Tenis Sapatenis volgue infantil</h3>
+                            <p>Tenis marrom, tamanhos disponiveis: 28,29,30,31</p>
+                            <button>Adicionar ao carrinho</button>
+                    </article>
+                    <article class="noticia">
+                            <img src="./imagens/tenis-nike.jpg">
+                            <h3>Tenis nike esport adulto</h3>
+                            <p>Tenis preto, tamanhos disponiveis: 36,37,38,39,40</p>
+                            <button>Adicionar ao carrinho</button>
+                    </article>
+                    <article class="noticia">
+                            <img src="./imagens/tenis-nike.jpg">
+                            <h3>Tenis nike esport infantil</h3>
+                            <p>Tenis preto, tamanhos disponiveis: 28,29,30,31</p>
+                            <button>Adicionar ao carrinho</button>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.botao-menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
